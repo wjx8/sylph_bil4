@@ -33,10 +33,12 @@ Python 脚本只使用标准库，不需要 `pip install`、R、HUMAnN、MetaPhl
 输入必须是已经完成质控的双端 FASTQ；支持未压缩的 `.fastq/.fq` 和 gzip 压缩的 `.fastq.gz/.fq.gz`。每个样本一行，清单必须是制表符分隔的 TSV：
 
 ```text
-sample_id\tr1\tr2
-sample_001\t/absolute/path/sample_001.clean_1.fastq.gz\t/absolute/path/sample_001.clean_2.fastq.gz
-sample_002\t/absolute/path/sample_002.clean_1.fastq.gz\t/absolute/path/sample_002.clean_2.fastq.gz
+sample_id<TAB>r1<TAB>r2
+sample_001<TAB>/absolute/path/sample_001.clean_1.fastq.gz<TAB>/absolute/path/sample_001.clean_2.fastq.gz
+sample_002<TAB>/absolute/path/sample_002.clean_1.fastq.gz<TAB>/absolute/path/sample_002.clean_2.fastq.gz
 ```
+
+上面的 `<TAB>` 表示一个真实的制表符，不是四个普通字符。
 
 可复制模板：
 
