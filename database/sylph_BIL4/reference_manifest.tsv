@@ -1,0 +1,5 @@
+clade	scientific_name	reference_id	fasta_path	ani_threshold	source	md5
+BI	Bifidobacterium infantis	GCA_900637215.1	database/sylph_BIL4/genomes/BI_GCA_900637215.1.fna	97	local BIL genome catalog / accession-matched FASTA	423cb8c39824a2d994ad0b0ec0491e31
+BL	Bifidobacterium longum subsp. longum	GCA_900637335.1	database/sylph_BIL4/genomes/BL_GCA_900637335.1.fna	97	local BIL genome catalog / accession-matched FASTA	d5b7a6ff3577e5359496bb1bf40c3e70
+BS	Bifidobacterium longum subsp. suis/suillum clade	GCA_900103055.1	database/sylph_BIL4/genomes/BS_GCA_900103055.1.fna	97	local BIL genome catalog / accession-matched FASTA	8bce6a8cbbc225a23de09ae9668cabc3
+BX	Bifidobacterium longum subsp. X	37822_2#275	database/sylph_BIL4/genomes/BX_37822_2_275.fna	99	local BIL genome catalog / BX 37822_2#275.fa	843167089ec90e583f1db94be5f834d9

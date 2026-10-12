@@ -1,0 +1,15 @@
+# User data and run outputs
+results/*
+!results/.gitkeep
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.sylsp
+
+# Runtime files
+__pycache__/
+*.py[cod]
+.DS_Store
+*.log
+*.tmp

@@ -1,0 +1,3 @@
+# No pip packages are required.
+# The pipeline uses Python standard-library modules only.
+# Install the complete environment with environment.yml.
